@@ -1,41 +1,36 @@
 <template>
 	<div class="foot">
-		<!-- <ul class="firm-info">
-			<li style="width: 65px; margin-right: 184px;">
-				快捷链接
-				<ul class="link-info">
-					<li v-for="item in nav">{{ item.name }}</li>
-				</ul>
-			</li>
-			<li style="width: 485px;">
-				联系我们
-				邮箱：wisutech@ebrain.ai
-				地址：北京市海淀区鼎好大厦3层智铀科技
-			</li>	
-		</ul> -->
 		<div class="foot-info">
 			<div class="foot-info-link">
-				<span>快捷链接</span>
-				<ul>
-					<li v-for="item in nav">{{ item.name }}</li>
+				<span class="foot-title">快捷链接</span>
+				<ul class="foot-list">
+					<li v-for="item in nav">
+						<a>{{ item.name }}</a>
+					</li>
 				</ul>
 			</div>
+
 			<div class="foot-info-addr">
+				<span class="foot-title">联系我们</span>
+				<ul class="foot-list">
+					<li>邮箱：wisutech@ebrain.ai</li>
+					<li>地址：北京市海淀区鼎好大厦3层智铀科技</li>
+				</ul>
 			</div>
-			<!-- separator -->
-			<div></div>
+			<!-- seprator -->
+			<div class="seprator"></div>
 			<!-- qr -->
 			<div class="foot-qr">
-				<span></span>
+				<span class="foot-title">关注我们</span>
 				<div>
 					<img src="../images/qr.png">
 				</div>
 			</div>
 		</div>
+
 		<div class="copy-right">
 			{{ copyRight }}
 		</div>
-
 	</div>
 </template>
 
@@ -68,6 +63,12 @@
 </script>
 
 <style lang="scss">
+	@media screen and (max-width: 1200px) {
+		html, body {
+			min-width: 1226px;
+		}	
+	}
+	
 	.foot {
 		width: 100%;	
 	    color: #333;
@@ -75,36 +76,43 @@
 	    line-height: 60px;
 	}
 	.foot-info {
-		width: 1200px;
+		width: 1020px;
 		padding-top: 69px;
 		height: 280px;
 		left: calc(50% - 600);
 		list-style: none;
 	}
-	.foot-info-link {
-		display: inline-block; 
-		width: 100px; 
-		margin-right: 150px; 
-		height: 210px; 
-		background: red;
-	}
-	.foot-info-link ul {
-		list-style: none;
-	}
-	.bottom-nav {
-		width: 1200px;
-		list-style: none;
-	}
-	.bottom-nav li {
-		display: inline-block;
-		width: 65px;
+	.foot-title {
 		height: 17px;
+		line-height: 17px;
 		font-family: MicrosoftYaHei;
 		font-size: 16px;
 		font-weight: normal;
 		letter-spacing: 0px;
 		color: #333333;
-		margin-right: 184px;
+		margin-bottom: 28px;
+	}
+	.foot-info-link {
+		width: 100px; 
+		margin-right: 150px; 
+		height: 207px;
+		float: left;
+	}
+	.foot-list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		height: 170px;
+	}
+	.foot-list li {
+		font-family: MicrosoftYaHei;
+		font-size: 14px;
+		line-height: 15px;
+		margin-bottom: 23px;
+		font-weight: normal;
+		letter-spacing: 0px;
+		color: #666666;
+
 	}
 	.link-info {
 		height: 17px;
@@ -127,5 +135,19 @@
 		line-height: 40px;
 		letter-spacing: 0px;
 		color: #999999;
+	}
+	.foot-info-addr {
+		display: inline-block;
+		width: 485px;
+	}
+	.seprator {
+		margin-top: 77px;
+		display: inline-block;
+		width: 1px;
+		height: 80px;
+		background-color: #cccccc;
+	}
+	.foot-qr {
+		float: right;
 	}
 </style>

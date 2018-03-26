@@ -22,11 +22,11 @@ const routers = [
 		path: '/solution',
 		component: Solution
 	},
-	{
+	/*{
 		name: '新闻动态',
 		path: '/news',
 		component: News
-	},
+	},*/
 	{
 		name: '关于我们',
 		path: '/about-us',

@@ -13,7 +13,7 @@
 				<div class="rec-detail-third">
 					<div class="rec-info-label">工作职责</div>
 					<ul class="rec-info-task">
-						<li>- 从事前沿大规模机器学习算法的研究；</li>
+						<li>- 从事前沿大规模机器学习算法的研究；从事前沿大规模机器学习算法的研究；从事前沿大规模机器学习算法的研究；从事前沿大规模机器学习算法的研究；从事前沿大规模机器学习算法的研究；</li>
 						<li>- 从事前沿大规模机器学习算法的研究；</li>
 						<li>- 从事前沿大规模机器学习算法的研究；</li>
 					</ul>
@@ -88,6 +88,7 @@
 	.rec-detail {
 		margin-top: 60px;
 		margin-left: 60px;
+		margin-right: 60px;
 	}
 	.rec-detail-first {
 		font-family: MicrosoftYaHei;
@@ -122,6 +123,7 @@
 		font-size: 14px;
 		font-weight: normal;
 		margin-bottom: 18px;
+
 	}
 </style>
 

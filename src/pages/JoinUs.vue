@@ -11,39 +11,6 @@
 				</ul>
 			</div>
 			<rec-part :recData="recData"></rec-part>
-			<div class="rec-con">
-				<div class="rec-con-title">
-					<ul class="title-info">
-						<li>大规模机器学习</li>
-						<li>大规模机器学习</li>
-					</ul>
-				</div>
-				<div class="rec-con-info">
-					<div class="rec-detail">
-						<div class="rec-detail-first">简历请发：hr@ebrain.ai</div>
-						<div class="rec-detail-second">工作地点：北京</div>
-						<div class="rec-detail-third">
-							<div class="rec-info-label">工作职责</div>
-							<ul class="rec-info-task">
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-							</ul>
-						</div>
-						<div class="rec-detail-fourth">
-							<div class="rec-info-label">工作职责</div>
-							<ul class="rec-info-task">
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-								<li>- 从事前沿大规模机器学习算法的研究；</li>
-							</ul>
-						</div>
-					</div>
-				</div> 
-			</div>
 		</div>
 		<bottom-part></bottom-part>
 	</div>
@@ -109,11 +76,11 @@
 		list-style: none;
 	}
 	.rec-nav ul li {
-		width: 16px;
 		display: inline-block;
-		margin-left: 221px;
+		margin-left: 220px;
 	}
 	.rec-nav ul li a {
+		width: 32px;
 		font-family: MicrosoftYaHei;
 		font-size: 16px;
 		line-height: 17px;

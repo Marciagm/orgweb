@@ -2,16 +2,19 @@
 	<div>
 		<top-part curIndex=3></top-part>
 		
-		新闻动态
+		<div style="background: #fff; height: 1735px;">新闻动态</div>
+		<bottom-part></bottom-part>
 	</div>
 </template>
 
 <script>
 	import TopPart from '@/components/Top'
+	import BottomPart from '@/components/Bottom'
 
 	export default {
 		components: {
-			TopPart
+			TopPart,
+			BottomPart
 		}
 	}
 </script>

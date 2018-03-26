@@ -79,11 +79,14 @@
         font-weight: normal;
     }
     a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .banner a {
         display: inline-block;
         width: 100px;
         height: 38px;
         line-height: 38px;
-        text-decoration: none;
         color: #fff;
         cursor: pointer;
     }
