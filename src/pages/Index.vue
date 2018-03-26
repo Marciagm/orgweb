@@ -1,6 +1,18 @@
 <template>
 	<div>
 		<top-part curIndex=0></top-part>
+		<div class="index-pre">
+			<div class="index-pre-con">
+				<div class="index-pre-left">
+					<div>自动化机器学习</div>
+					<div>帮助企业实现智能化驱动</div>
+				</div>
+				<div class="index-pre-sep"></div>
+				<div class="index-pre-right">
+					整合世界领先的数据科学的经验和最佳实践，自动化数据科学的各个环节，大幅提升数据科学家工作效率，让普通技术和业务人员也可以直接使用，用极短的时间构建和部署高度精确机器学习模型。使用自动化机器学习可以让企业在各个领域发现和实践AI机会，实现智能化转型。
+				</div>
+			</div>
+		</div>
 		<div class="first">
 			<div class="first-con">
 				<img src="../images/product-mac.png" class="first-img">
@@ -10,7 +22,7 @@
 						<span class="first-label-eng">product superiority</span>
 					</div>
 					<div class="first-desc-detail">智铀科技掌握最新的“第四代机器学习”技术能力，在大幅提升数据处理速度、精度等指标的同时，还实现了全流程自动化机器学习、自动化的建模和部署。依托最新一代的机器学习技术，企业可以轻松构建自动化机器学习平台，实现在线智能学习。</div>
-					<button>了解详情</button>
+					<button @click="goProduct">了解详情</button>
 				</div>
 			</div>
 		</div>
@@ -72,7 +84,7 @@
 					<div class="third-con-desc">
 						  大数据时代，智铀科技以最先进的机器学习解决方案，帮助银行深入挖掘数据潜在的价值洞察客户需求，促进银行决策从“经验驱动”向“数据驱动”转化，基于数据信息为客户提供差异化、个性化的产品和服务，提高精准营销能力，实现业务运营最优化，从而最终打造并保持商业银行的核心竞争力。
 					</div>
-					<button>查看更多</button>
+					<button @click="goSolution">查看更多</button>
 				</div>
 				<img class="third-con-img" src="../images/solution-mac.png">
 			</div>
@@ -137,6 +149,14 @@
 				console.log(`data: ${data}`);
 				this.news = data.data.content;
 			})*/
+		},
+		methods: {
+			goProduct () {
+				this.$router.push('/product');
+			},
+			goSolution () {
+				this.$router.push('/solution');
+			}
 		}
 	}
 </script>
@@ -150,6 +170,53 @@
 	}
 	.part {
 		text-align: center;
+	}
+	.index-pre {
+		@extend .box-style;
+		padding-top: 100px;
+		height: 287px;
+		background-color: #f8f9fc;
+		text-align: left;
+	}
+	.index-pre-con {
+		width: 1200px;
+	}
+	.index-pre-left {
+		vertical-align: top;
+		margin-left: 100px; 
+		display: inline-block;
+		height: 76px;
+		font-family: MicrosoftYaHei;
+		font-size: 30px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 45px;
+		letter-spacing: 0px;
+		color: #333333;
+	}
+	.index-pre-sep {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 18px;
+		width: 1px;
+		height: 40px;
+		margin-left: 110px;
+		margin-right: 120px;
+		background-color: #cccccc;
+	}
+	.index-pre-right {
+		vertical-align: top;
+		width: 517px;
+		display: inline-block;
+		width: 517px;
+		height: 86px;
+		font-family: MicrosoftYaHei;
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 24px;
+		letter-spacing: 0px;
+		color: #666666;
 	}
 	.first {
 		@extend .part;

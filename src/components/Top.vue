@@ -46,11 +46,9 @@
     @media screen and (min-width: 800px) {
         
     }
-    body {
+    .banner {
         background: url("../images/banner.png") no-repeat;
         background-position: top center;
-    }
-    .banner {
         height: 500px;
     }
     .nav-con {

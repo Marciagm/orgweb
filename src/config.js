@@ -9,17 +9,20 @@ const routers = [
 	{
 		name: '首页',
 		path: '/',
+		index: 0,
 		component: Index,
 		bg: 'rgba(0, 0, 0, 0.15)'
 	},
 	{
 		name: '产品概述',
 		path: '/product',
+		index: 1,
 		component: Product 
 	}, 
 	{
 		name: '解决方案',
 		path: '/solution',
+		index: 2,
 		component: Solution
 	},
 	/*{
@@ -30,10 +33,12 @@ const routers = [
 	{
 		name: '关于我们',
 		path: '/about-us',
+		index: 3,
 		component: AboutUs
 	}, 
 	{
 		name: '加入我们',
+		index: 4,
 		path: '/join-us',
 		component: JoinUs 
 	}

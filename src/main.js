@@ -10,7 +10,11 @@ console.log(`process.env.NODE_ENV: ${process.env.NODE_ENV}`);
 Vue.use(VueRouter);
 // index of gmgm
 const router = new VueRouter({
-	routes
+	routes,
+	scrollBehavior (to, from, savedPosition) {
+    // return 期望滚动到哪个的位置
+    	return {x: 0, y:0}
+    }
 })
 
 new Vue({

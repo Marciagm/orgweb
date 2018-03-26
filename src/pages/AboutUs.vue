@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<top-part curIndex=4></top-part>
+		<top-part curIndex=3></top-part>
 		<div class="about-us-con">
 			<div>
 				<div class="about-us-head">公司介绍</div>

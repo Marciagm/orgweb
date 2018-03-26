@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<top-part curIndex=5></top-part>
+		<top-part curIndex=4></top-part>
 		<div class="rec">
 			<div class="rec-nav">
 				<ul>
