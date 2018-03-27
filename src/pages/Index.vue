@@ -38,11 +38,11 @@
 					<div class="second-con-sub">生产时间</div>
 					<div class="second-con-desc">为企业减少95%的生产时间</div>
 				</div>
-				<div style="background-color: #1f6af1; border: solid 1px #cccccc; color: #fff;">
-					<div class="second-con-head" style="color: #fff">85%</div>
-					<div class="second-con-sep" style="background-color: #cccccc;"></div>
-					<div class="second-con-sub" style="color: #fff">工程成本</div>
-					<div class="second-con-desc" style="color: #fff">为企业减少85%的工程成本</div>
+				<div>
+					<div class="second-con-head">85%</div>
+					<div class="second-con-sep"></div>
+					<div class="second-con-sub">工程成本</div>
+					<div class="second-con-desc">为企业减少85%的工程成本</div>
 				</div>
 				<div>
 					<div class="second-con-head">70%</div>
@@ -296,6 +296,18 @@
 		border-left: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
 	}
+	.second-con >div:hover {
+		background-color: #1f6af1; 
+		border: solid 1px #cccccc; 
+		color: #fff;
+	}
+	.second-con >div:hover div { 
+		color: #fff;
+	}
+	.second-con >div:hover .second-con-sep {
+		background: #ccc;
+	}
+	.second-con >div 
 	.second-con div:last-child {
 		flex: 1;
 		margin-right: 0;

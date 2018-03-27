@@ -5,7 +5,7 @@
 				<span class="foot-title">快捷链接</span>
 				<ul class="foot-list">
 					<li v-for="item in nav">
-						<a>{{ item.name }}</a>
+						<a :href="'#' + item.path">{{ item.name }}</a>
 					</li>
 				</ul>
 			</div>
@@ -42,19 +42,28 @@
 				copyRight: 'Copyright （c）2017  北京智铀科技有限公司 京ICP备17072393号 All Rights Reserved',
 				nav: [
 					{
-						name: '产品概述',       
+						name: '网站首页',
+						path: '/'
 					},
 					{
-						name: '解决方案'
+						name: '产品概述',
+						path: '/product'
 					},
 					{
-						name: '新闻动态'
+						name: '解决方案',
+						path: '/solution'
+					},
+					/*{
+						name: '新闻动态',
+						path: '/news'
+					},*/
+					{
+						name: '关于我们',
+						path: '/about-us'
 					},
 					{
-						name: '关于我们'
-					},
-					{
-						name: '联系我们'
+						name: '加入我们',
+						path: '/join-us'
 					}
 				]
 			}
@@ -114,6 +123,9 @@
 		color: #666666;
 
 	}
+	.foot-list li a, .foot-list li a:link, .foot-list li a:hover, .foot-list li a:active {
+		color: #666;
+	} 
 	.link-info {
 		height: 17px;
 		margin-bottom: 28px;

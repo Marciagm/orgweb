@@ -93,7 +93,7 @@
 		line-height: 0px;
 		letter-spacing: 2px;
 		color: #0b51cf;
-		margin-top: 61px;
+		margin-top: 72px;
 
 	}
 	.solution-con-sep {
