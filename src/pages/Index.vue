@@ -41,20 +41,20 @@
 				<div style="background-color: #1f6af1; border: solid 1px #cccccc; color: #fff;">
 					<div class="second-con-head" style="color: #fff">85%</div>
 					<div class="second-con-sep" style="background-color: #cccccc;"></div>
-					<div class="second-con-sub" style="color: #fff">生产时间</div>
-					<div class="second-con-desc" style="color: #fff">为企业减少95%的生产时间</div>
+					<div class="second-con-sub" style="color: #fff">工程成本</div>
+					<div class="second-con-desc" style="color: #fff">为企业减少85%的工程成本</div>
 				</div>
 				<div>
 					<div class="second-con-head">70%</div>
 					<div class="second-con-sep"></div>
-					<div class="second-con-sub">生产时间</div>
-					<div class="second-con-desc">为企业减少95%的生产时间</div>
+					<div class="second-con-sub">运营成本</div>
+					<div class="second-con-desc">为企业减少70%的运营成本</div>
 				</div>
 				<div>
 					<div class="second-con-head">10X</div>
 					<div class="second-con-sep"></div>
-					<div class="second-con-sub">生产时间</div>
-					<div class="second-con-desc">为企业减少95%的生产时间</div>
+					<div class="second-con-sub">提高生产率</div>
+					<div class="second-con-desc">为企业减少10倍多的生产率</div>
 				</div>
 			</div>
 		</div>
@@ -163,11 +163,7 @@
 
 <style scoped lang="scss">
 	@import "~base";
-	.box-style {
-		box-sizing: border-box;
-		-moz-box-sizing: border-box; /* Firefox */
-		-webkit-box-sizing: border-box; /* Safari */
-	}
+	
 	.part {
 		text-align: center;
 	}
@@ -405,8 +401,6 @@
 		height: 408px;
 	}
 	.fourth-con img {
-		width: 315px;
-		height: 368px;
 		position: absolute;
 		left: 0;
 		bottom: 0;

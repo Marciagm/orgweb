@@ -151,7 +151,7 @@
 	}
 	.about-us-team-sep {
 		margin-top: 13px;
-		margin-left: 79px;
+		margin-left: 70px;
 		display: inline-block;
 		vertical-align: top;
 		width: 2px;
