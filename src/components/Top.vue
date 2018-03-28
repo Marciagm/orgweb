@@ -14,7 +14,6 @@
 
 <script>
     import { routers as nav } from '@/config'
-    
     export default {
         props: ['curIndex'],
         name: 'top',
@@ -38,7 +37,6 @@
 </script>
 
 <style lang="scss">
-    $large-width: 1920;
     $fontSize: 14px;
     .banner {
         background: url("../images/banner.png") no-repeat;
@@ -48,7 +46,6 @@
     .nav-con {
         padding-top: 15px;
         width: 1200px;
-        list-style: none;
     }
     .icon {
         width: 149px;
@@ -56,7 +53,6 @@
     }
 	.nav {
         display: inline-block;
-        list-style: none;
         float: right;
     }
     .nav li {

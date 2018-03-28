@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import { routes } from './routes'
 import App from './App'
 
+
 Vue.use(VueRouter);
 // index of gmgm
 const router = new VueRouter({

@@ -123,7 +123,19 @@
 	</div>
 </template>
 <style lang="scss">
-	@import "~base";
+	.box-style {
+		box-sizing: border-box;
+	}
+	.label {
+		font-size: 30px;
+		letter-spacing: 3px;
+		color: #333333;
+	}
+	.label-eng {
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: #999;
+	}
 	.pro {
 		text-align: center;
 	}

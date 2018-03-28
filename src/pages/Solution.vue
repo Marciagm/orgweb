@@ -87,8 +87,6 @@
 	.solution-con-head {
 		height: 25px;
 		font-size: 24px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 0px;
 		letter-spacing: 2px;
 		color: #0b51cf;
@@ -106,8 +104,6 @@
 		width: 483px;
 		height: 111px;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;

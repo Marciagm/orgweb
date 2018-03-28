@@ -18,14 +18,5 @@
 </script>
 
 <style lang="scss">
-	html {
-		font-family: MicrosoftYaHei;
-	}
-	* {
-		margin: 0 auto;
-		padding: 0;
-	}
-	.app {
-		width: 100%;
-	}
+	@import '~base';
 </style>

@@ -19,7 +19,7 @@
 				<div class="first-desc">
 					<div>
 						<span class="first-label">产品优势</span>
-						<span class="first-label-eng">product superiority</span>
+						<span class="first-label-eng">PRODUCT SUPERIORITY</span>
 					</div>
 					<div class="first-desc-detail">智铀科技掌握最新的“第四代机器学习”技术能力，在大幅提升数据处理速度、精度等指标的同时，还实现了全流程自动化机器学习、自动化的建模和部署。依托最新一代的机器学习技术，企业可以轻松构建自动化机器学习平台，实现在线智能学习。</div>
 					<button @click="goProduct">了解详情</button>
@@ -29,7 +29,7 @@
 		<div class="second">
 			<div class="second-head">
 				<span class="first-label">我们能做到</span>
-				<div class="first-label-eng">We can do it</div>
+				<div class="first-label-eng">WE CAN DO IT</div>
 			</div>
 			<div class="second-con">
 				<div>
@@ -63,7 +63,7 @@
 				<img src="../images/founder.png">
 				<div  class="fourth-con-right">
 					<span class="fourth-label">团队创始人</span>
-					<span class="fourth-label-eng" style="margin-left: 15px;">Founder of the team</span>
+					<span class="fourth-label-eng" style="margin-left: 15px;">FOUNDER OF THE TEAM</span>
 					<div class="fourth-con-sub">——创始人夏粉</div>
 					<ul class="fourth-con-desc">
 						<li>中科院机器学习博士，曾任Baidu高级科学家</li>
@@ -78,7 +78,7 @@
 			<div class="third-con">
 				<div class="third-con-left">
 					<div class="third-con-head">
-						<span class="first-label-eng">The solution</span>
+						<span class="first-label-eng">THE SOLUTION</span>
 						<span class="first-label" style="margin-left: 20px;">智能大脑解决方案</span>
 					</div>
 					<div class="third-con-desc">
@@ -162,13 +162,24 @@
 </script>
 
 <style scoped lang="scss">
-	@import "~base";
-	
+	.box-style {
+		box-sizing: border-box;
+	}
+	.label {
+		font-size: 30px;
+		letter-spacing: 3px;
+		color: #333333;
+	}
+	.label-eng {
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: #999;
+	}
 	.part {
 		text-align: center;
 	}
 	.index-pre {
-		@extend .box-style;
+		box-sizing: border-box;
 		padding-top: 100px;
 		height: 287px;
 		background-color: #f8f9fc;
@@ -258,15 +269,13 @@
 		line-height: 33px;
 	}
 	.second {
-		@extend .box-style;
+		box-sizing: border-box;
 		clear: both;
 		width: 100%;
 		padding-top: 125px;
 		height: 713px;
 		background-color: #f8f9fc;
 		text-align: center;
-	}
-	.second-head {
 	}
 	.second-con {
 		display: flex;
@@ -421,7 +430,6 @@
 		color: #ffffff;
 	} 
 	.fourth-con-desc {
-		list-style: none;
 		margin-top: 26px;
 	}
 	.fourth-con-desc li {
@@ -431,7 +439,7 @@
 		color: #eeeeee;
 	}
 	.fifth {
-		@extend .box-style;
+		box-sizing: border-box;
 		padding-top: 120px;
 		height: 854px;
 		background: #fff;
@@ -462,7 +470,6 @@
 	.fifth-news-list {
 		display: inline-block;
 		width: 527px;
-		list-style: none;
 		text-align: left;
 	}
 	.fifth-news-list li {

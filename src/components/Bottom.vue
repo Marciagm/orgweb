@@ -92,7 +92,6 @@
 		padding-top: 69px;
 		height: 280px;
 		left: calc(50% - 600);
-		list-style: none;
 	}
 	.foot-title {
 		height: 17px;
@@ -111,7 +110,6 @@
 	.foot-list {
 		padding: 0;
 		margin: 0;
-		list-style: none;
 		height: 170px;
 	}
 	.foot-list li {
@@ -130,7 +128,6 @@
 		margin-bottom: 28px;
 	}
 	.link-info li {
-		list-style: none;
 		height: 14px;
 		margin-bottom: 22px; 
 	}

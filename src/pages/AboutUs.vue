@@ -4,7 +4,7 @@
 		<div class="about-us-con">
 			<div>
 				<div class="about-us-head">公司介绍</div>
-				<div class="label-eng">Company introduction</div>
+				<div class="label-eng">COMPANY INTRODUCTION</div>
 				<div class="about-us-desc">智铀科技是致力于打造世界上最先进机器学习平台的人工智能服务公司，拥有世界上最先进的企业级自动化机器学习平台。智铀科技专注于为企业带来全流程，自动化的建模和部署能力，为用户提供从数据预处理，模型训练，模型评估，模型预测到结果分析等一站式服务，从而降低机器学习的门槛，为企业构建人工智能核心。智铀科技还掌握最新的“第四代机器学习”技术能力，可以构建自动化机器学习平台，实现在线智能学习。</div>
 				<div class="about-us-foot">
 					<span class="about-us-foot-head">企业愿景：</span>
@@ -14,7 +14,7 @@
 			</div>
 			<div>
 				<div class="about-us-head">团队优势</div>
-				<div class="label-eng">Team advantage</div>
+				<div class="label-eng">TEAM ADVANTAGE</div>
 				<div class="about-us-team">
 					<img src="../images/about-us.png">
 					<div class="about-us-leader">
@@ -36,7 +36,7 @@
 			</div>
 			<div>
 				<div class="about-us-head">联系我们</div>
-				<div class="label-eng">Company introduction</div>
+				<div class="label-eng">CONTACT US</div>
 				<div class="about-us-contact">
 					<div style="float: left; text-align: center; vertical-align: middle;">
 						<div class="about-us-contact-head">邮箱</div>
@@ -55,8 +55,19 @@
 	</div>
 </template>
 <style lang="scss">
-	@import '~base';
-
+	.box-style {
+		box-sizing: border-box;
+	}
+	.label {
+		font-size: 30px;
+		letter-spacing: 3px;
+		color: #333333;
+	}
+	.label-eng {
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: #999;
+	}
 	.about-us-con {
 		text-align: center;
 		margin-top: 78px;

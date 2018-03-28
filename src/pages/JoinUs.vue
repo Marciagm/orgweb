@@ -254,7 +254,6 @@
 	}
 	.rec-nav ul {
 		padding-top: 63px;
-		list-style: none;
 	}
 	.rec-nav ul li {
 		display: inline-block;
@@ -262,10 +261,8 @@
 	}
 	.rec-nav ul li a {
 		width: 32px;
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
 		line-height: 17px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #999999;
 	}
@@ -289,9 +286,7 @@
 	.title-info li {
 		margin-bottom: 35px;
 		height: 17px;
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 1px;
 		color: #0b51cf
 	}
@@ -307,37 +302,26 @@
 		margin-left: 60px;
 	}
 	.rec-detail-first {
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #333333;
 		margin-bottom: 18px;
 	}
 	.rec-detail-second {
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #333333;
 		margin-bottom: 40px;
 	}
-	.rec-info-task {
-		list-style: none;
-	}
 	.rec-info-label {
 		height: 17px;
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		margin-bottom: 19px;
 		letter-spacing: 0px;
 		color: #333333;
 	}
 	.rec-info-task li {
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
 		margin-bottom: 18px;
 	}
 </style>
