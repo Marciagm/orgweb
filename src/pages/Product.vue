@@ -1,7 +1,7 @@
 <template>
 	<div class="pro">
 		<top-part curIndex=1></top-part>
-		<div class="pro-flow"">
+		<div class="pro-flow">
 			<div class="pro-flow-con">
 				<div class="pro-label">人工智能预测流程</div>
 				<div class="pro-label-eng">AI FORECASTING PROCESS</div>

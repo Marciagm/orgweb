@@ -86,7 +86,6 @@
 	}
 	.solution-con-head {
 		height: 25px;
-		font-family: MicrosoftYaHei;
 		font-size: 24px;
 		font-weight: normal;
 		font-stretch: normal;
@@ -94,7 +93,6 @@
 		letter-spacing: 2px;
 		color: #0b51cf;
 		margin-top: 72px;
-
 	}
 	.solution-con-sep {
 		width: 20px;
@@ -107,7 +105,6 @@
 		text-align: left;
 		width: 483px;
 		height: 111px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
 		font-weight: normal;
 		font-stretch: normal;

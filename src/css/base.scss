@@ -1,16 +1,11 @@
 ul {
 	list-style: none;
 }
-a {
-
-}
 button {
 	cursor: pointer;
 }
 .box-style {
 	box-sizing: border-box;
-	-moz-box-sizing: border-box; /* Firefox */
-	-webkit-box-sizing: border-box; /* Safari */
 }
 .clear {
 	clear: both;
@@ -19,16 +14,12 @@ button {
 	flex: 1;
 }
 .label {
-	font-family: MicrosoftYaHei;
 	font-size: 30px;
-	font-weight: normal;
 	letter-spacing: 3px;
 	color: #333333;
 }
 .label-eng {
-	font-family: MicrosoftYaHei;
 	font-size: 16px;
-	font-weight: normal;
 	letter-spacing: 1px;
 	color: #999;
 }

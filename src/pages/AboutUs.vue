@@ -59,7 +59,6 @@
 
 	.about-us-con {
 		text-align: center;
-		width: 100%;
 		margin-top: 78px;
 	}
 	.about-us-con>div {
@@ -74,10 +73,7 @@
 		text-indent: 28px;
 		text-align: left;
 		width: 920px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;
@@ -97,20 +93,14 @@
 	.about-us-foot-head {
 		width: 68px;
 		height: 14px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #333333;
 	}
 	.about-us-foot-desc {
 		height: 16px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;
@@ -130,10 +120,7 @@
 	.about-us-leader-head {
 		margin-bottom: 26px;
 		height: 17px;
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #333333;
@@ -141,10 +128,7 @@
 	.about-us-leader-desc {
 		width: 356px;
 		height: 87px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;
@@ -165,10 +149,7 @@
 	.about-us-staff-desc {
 		width: 234px;
 		height: 39px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;
@@ -187,10 +168,7 @@
 
 	.about-us-label {
 		height: 15px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		letter-spacing: 0px;
 		color: #666666;
 	}

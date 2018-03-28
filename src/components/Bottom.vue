@@ -67,6 +67,8 @@
 					}
 				]
 			}
+		},
+		mounted () {
 		}
 	}
 </script>
@@ -74,7 +76,7 @@
 <style lang="scss">
 	@media screen and (max-width: 1200px) {
 		html, body {
-			min-width: 1226px;
+			min-width: 1200px;
 		}	
 	}
 	
@@ -83,6 +85,7 @@
 	    color: #333;
 	    background: #f2f2f2;
 	    line-height: 60px;
+	    text-align: left;
 	}
 	.foot-info {
 		width: 1020px;
@@ -94,9 +97,7 @@
 	.foot-title {
 		height: 17px;
 		line-height: 17px;
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #333333;
 		margin-bottom: 28px;
@@ -114,11 +115,9 @@
 		height: 170px;
 	}
 	.foot-list li {
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
 		line-height: 15px;
 		margin-bottom: 23px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #666666;
 
@@ -140,10 +139,7 @@
 		width: 100%;
 		height: 40px;
 		background: #333;
-		font-family: MicrosoftYaHei;
 		font-size: 12px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 40px;
 		letter-spacing: 0px;
 		color: #999999;

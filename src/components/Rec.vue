@@ -74,7 +74,6 @@
 		height: 17px;
 		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 1px;
 		color: #999;
 	}
@@ -91,17 +90,13 @@
 		margin-right: 60px;
 	}
 	.rec-detail-first {
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #333333;
 		margin-bottom: 18px;
 	}
 	.rec-detail-second {
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #333333;
 	}
@@ -117,10 +112,8 @@
 		margin-bottom: 18px;	
 	}
 	.rec-lists li {
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
 		line-height: 18px;
-		font-weight: normal;
 		margin-bottom: 18px;
 		color: #666;
 	}

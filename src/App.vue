@@ -18,6 +18,9 @@
 </script>
 
 <style lang="scss">
+	html {
+		font-family: MicrosoftYaHei;
+	}
 	* {
 		margin: 0 auto;
 		padding: 0;

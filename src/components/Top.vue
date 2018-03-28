@@ -40,12 +40,6 @@
 <style lang="scss">
     $large-width: 1920;
     $fontSize: 14px;
-    @function get-width-ratio($width, $parent-width) {
-        @return $width / $parent-width * 100%;
-    }
-    @media screen and (min-width: 800px) {
-        
-    }
     .banner {
         background: url("../images/banner.png") no-repeat;
         background-position: top center;
@@ -53,7 +47,6 @@
     }
     .nav-con {
         padding-top: 15px;
-        margin-left: calc(50% - 600);
         width: 1200px;
         list-style: none;
     }
@@ -72,9 +65,7 @@
         margin-right: 6px;
         height: 38px;
         display: inline-block;
-        font-family: MicrosoftYaHei;
         font-size: $fontSize;
-        font-weight: normal;
     }
     a {
         cursor: pointer;

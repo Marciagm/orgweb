@@ -182,10 +182,7 @@
 		margin-left: 100px; 
 		display: inline-block;
 		height: 76px;
-		font-family: MicrosoftYaHei;
 		font-size: 30px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 45px;
 		letter-spacing: 0px;
 		color: #333333;
@@ -206,10 +203,7 @@
 		display: inline-block;
 		width: 517px;
 		height: 86px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;
@@ -247,10 +241,7 @@
 	.first-desc-detail {
 		margin-top: 39px;
 		width: 483px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		/*line-height: 24px;*/
 		letter-spacing: 0px;
 		color: #666666;
@@ -263,7 +254,6 @@
 		box-shadow: 0px 3px 5px 0px 
 		rgba(59, 21, 1, 0.3);
 		color: #fffefe;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
 		line-height: 33px;
 	}
@@ -318,7 +308,6 @@
 		margin-bottom: 33px;
 		font-family: DINCondensed-Bold;
 		font-size: 92px;
-		font-weight: normal;
 		letter-spacing: 0px;
 		color: #1f6af1;
 
@@ -331,18 +320,14 @@
 	}
 	.second-con-sub {
 		height: 21px;
-		font-family: MicrosoftYaHei;
 		font-size: 20px;
-		font-weight: normal;
 		letter-spacing: 2px;
 		color: #333333;
 		margin-bottom: 12px;
 	}
 	.second-con-desc {
 		height: 15px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
 		letter-spacing: 1px;
 		color: #666666;
 	}
@@ -370,10 +355,7 @@
 	.third-con-desc {
 		text-indent: 28px;
 		width: 483px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #666666;
@@ -386,9 +368,7 @@
 		background-color: #2081e4;
 		box-shadow: 0px 3px 5px 0px 
 			rgba(59, 21, 1, 0.3);
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #fffefe;
@@ -435,9 +415,7 @@
 	.fourth-con-sub {
 		margin-top: 36px;
 		height: 17px;
-		font-family: MicrosoftYaHei;
 		font-size: 16px;
-		font-weight: normal;
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #ffffff;
@@ -447,10 +425,7 @@
 		margin-top: 26px;
 	}
 	.fourth-con-desc li {
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		letter-spacing: 0px;
 		line-height: 24px;
 		color: #eeeeee;
@@ -479,10 +454,7 @@
 		margin-top: 36px;
 		margin-bottom: 17px;
 		height: 25px;
-		font-family: MicrosoftYaHei;
 		font-size: 24px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 24px;
 		letter-spacing: 1px;
 		color: #333333;
@@ -501,10 +473,7 @@
 	}
 	.news-label {
 		height: 13px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
-		font-stretch: normal;
 		line-height: 12px;
 		letter-spacing: 0px;
 		color: #999999;
@@ -525,9 +494,7 @@
 		margin-top: 14px;
 		margin-bottom: 12px;
 		width: 549px;
-		font-family: MicrosoftYaHei;
 		font-size: 14px;
-		font-weight: normal;
 		line-height: 26px;
 		color: #666666;
 	}

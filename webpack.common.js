@@ -1,5 +1,7 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 /*function resolve(dir) {
   return path.join(__dirname, dir)
@@ -11,10 +13,11 @@ module.exports = {
 	},	
 	plugins: [
 		//new CleanWebpackPlugin(['dist']),
-		/*new HtmlWebpackPlugin({
+		new HtmlWebpackPlugin({
 			title: '智铀科技',
 			template: 'index.html'
-		})*/
+		}),
+		new ExtractTextPlugin("style.css")
 	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -34,13 +37,20 @@ module.exports = {
 		rules: [
       		{
         		test: /\.vue$/,
-        		loader: 'vue-loader'
-      		},
-      		{
+        		loader: 'vue-loader',
+        		options: {
+        			extractCSS: true,
+        			postcss: [require('autoprefixer')(),require('cssnano')()],
+        			loaders: {
+        				js: 'babel-loader!eslint-loader'
+        			}
+        		}
+      		},{
       			test: /\.js$/,
       			loader: 'babel-loader',
-		        include: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'test'), path.resolve(__dirname, '/node_modules/element-ui/src'),path.resolve(__dirname, '/node_modules/element-ui/packages')]
+		        //include: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'test'), path.resolve(__dirname, '/node_modules/element-ui/src'),path.resolve(__dirname, '/node_modules/element-ui/packages')]
       		},
+      		
       		{
       			test: /\.css$/,
       			use: ['style-loader', 'css-loader']
