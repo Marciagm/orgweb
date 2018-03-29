@@ -27,6 +27,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use('/', index);
+app.use('/index', index);
+
 app.use('/users', users);
 
 app.use('/news', (req, res) => {

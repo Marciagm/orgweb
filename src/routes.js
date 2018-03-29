@@ -3,7 +3,7 @@ import Index from '@/pages/Index'
 
 const routes = routers.concat([{
 	name: '首页',
-	path: '/index',
+	path: '*',
 	component: Index
 }])
 

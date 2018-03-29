@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "node ./bin/www",
     "start": "webpack-dev-server --open --config webpack.dev.js --mode development",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js --mode production"
   },
   "browserslist": [
     "defaults",

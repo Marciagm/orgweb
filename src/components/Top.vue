@@ -27,6 +27,7 @@
         		console.log(key, keypath)
         	},
             tab (item, index) {
+                console.log(item.path);
                 this.$router.push(item.path);
             }
         },
