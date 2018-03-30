@@ -51,7 +51,6 @@
 				</div>
 			</div>
 		</div>
-		<bottom-part></bottom-part>
 	</div>
 </template>
 <style lang="scss">

@@ -24,15 +24,13 @@
         },
         methods: {
         	handleSelect (key, keypath) {
-        		console.log(key, keypath)
+        		//console.log(key, keypath)
         	},
             tab (item, index) {
-                console.log(item.path);
                 this.$router.push(item.path);
             }
         },
         mounted () {
-            
         }
     }
 </script>

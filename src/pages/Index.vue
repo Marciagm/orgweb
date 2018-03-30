@@ -125,19 +125,16 @@
 				</ul>
 			</div>
 		</div> -->
-		<bottom-part></bottom-part>
 	</div>
 </template>
 
 <script>
 	import TopPart from '@/components/Top'
-	import BottomPart from '@/components/Bottom'
 	import axios from 'axios'
-	console.log(TopPart);
+
 	export default {
 		components: {
-			TopPart,
-			BottomPart
+			TopPart
 		},
 		data () {
 			return {
@@ -161,7 +158,7 @@
 	}
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 	.box-style {
 		box-sizing: border-box;
 	}

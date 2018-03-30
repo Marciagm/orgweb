@@ -16,19 +16,14 @@ module.exports = {
 		//new CleanWebpackPlugin(['dist']),
 		new HtmlWebpackPlugin({
 			title: '智铀科技',
-			template: 'index.html'
-		}),
-		new ExtractTextPlugin("style.css"),
-		/*new webpack.optimize.CommonsChunkPlugin({
-		    name: "vendor",
-		    minChunks: function(module){
-		      return module.context && module.context.includes("node_modules");
+			template: 'index.html',
+			minify: {
+		        removeComments: true,
+		        collapseWhitespace: true,
+		        removeAttributeQuotes: true
 		    }
 		}),
-		new webpack.optimize.CommonsChunkPlugin({
-		    name: "manifest",
-		    minChunks: Infinity
-		}),*/
+		new ExtractTextPlugin("style.css")
 	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -88,7 +83,7 @@ module.exports = {
 			 	priority: false, // 缓存组优先级
 				vendor: { // key 为entry中定义的 入口名称
 				    chunks: "initial", // 必须三选一： "initial" | "all" | "async"(默认就是异步) 
-				    test: /Vue/, // 正则规则验证，如果符合就提取 chunk
+				    test: /node_modules/, // 正则规则验证，如果符合就提取 chunk
 				    name: "vendor", // 要缓存的 分隔出来的 chunk 名称 
 				    minSize: 0,
 				    minChunks: 1,

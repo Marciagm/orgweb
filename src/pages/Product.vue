@@ -118,8 +118,6 @@
 				</div>
 			</div>
 		</div>
-
-		<bottom-part></bottom-part>
 	</div>
 </template>
 <style lang="scss">
@@ -243,12 +241,10 @@
 </style>
 <script>
 	import TopPart from '@/components/Top'
-	import BottomPart from '@/components/Bottom'
 
 	export default {
 		components: {
-			TopPart,
-			BottomPart
+			TopPart
 		}
 	}
 </script>

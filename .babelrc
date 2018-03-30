@@ -1,4 +1,5 @@
 {
 	"presets": ["es2015"],
-	"comments": true
+	"comments": true,
+	"plugins": ["syntax-dynamic-import"]
 }

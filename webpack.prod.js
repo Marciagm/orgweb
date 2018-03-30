@@ -12,7 +12,10 @@ module.exports = merge(conmmon, {
 	plugins: [
 		new UglifyJSPlugin({
 			uglifyOptions: {
-				warnings: false
+				warnings: false,
+				compress: {
+					warnings: false
+				}
 			}
 		}),
 		new webpack.DefinePlugin({

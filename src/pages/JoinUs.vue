@@ -12,20 +12,17 @@
 			</div>
 			<rec-part :recData="recData"></rec-part>
 		</div>
-		<bottom-part></bottom-part>
 	</div>
 </template>
 
 <script>
 	import TopPart from '@/components/Top'
 	import RecPart from '@/components/Rec'
-	import BottomPart from '@/components/Bottom'
 	
 	export default {
 		components: {
 			TopPart,
-			RecPart,
-			BottomPart
+			RecPart
 		},
 		data () {
 			return {
