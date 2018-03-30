@@ -27,8 +27,8 @@ module.exports = {
 	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		//filename: '[name].[chunkhash].js',
 		filename: '[name].js',
+		//chunkFilename: '[name].bundle.js',
 		publicPath: '/'
 	},
 	resolve: {
@@ -48,7 +48,7 @@ module.exports = {
         			extractCSS: true,
         			postcss: [require('autoprefixer')(),require('cssnano')()],
         			loaders: {
-        				js: 'babel-loader!eslint-loader'
+        				//js: 'babel-loader!eslint-loader'
         			}
         		}
       		},{

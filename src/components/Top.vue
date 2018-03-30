@@ -3,9 +3,9 @@
         <div class="nav-con">
             <img src="../images/logo-white.png" class="icon">
             <ul class="nav">
-                <li v-for="(item, index) in navigator" @click="tab(item, index)">
-                    <a v-if="index == curIndex" class="hilight">{{ item.name }}</a>
-                    <a v-if="index != curIndex">{{ item.name }}</a>
+                <li v-for="(item, index) in navigator">
+                    <router-link  :to="item.path" v-if="index == curIndex" class="hilight">{{ item.name }}</router-link>
+                    <router-link  :to="item.path" v-if="index != curIndex">{{ item.name }}</router-link>
                 </li>
             </ul>
         </div>
@@ -23,12 +23,6 @@
         	}
         },
         methods: {
-        	handleSelect (key, keypath) {
-        		//console.log(key, keypath)
-        	},
-            tab (item, index) {
-                this.$router.push(item.path);
-            }
         },
         mounted () {
         }
@@ -62,17 +56,12 @@
         display: inline-block;
         font-size: $fontSize;
     }
-    a {
-        cursor: pointer;
-        text-decoration: none;
-    }
     .banner a {
         display: inline-block;
         width: 100px;
         height: 38px;
         line-height: 38px;
         color: #fff;
-        cursor: pointer;
     }
     .hilight {
         background: rgba(0, 0, 0, 0.15);
