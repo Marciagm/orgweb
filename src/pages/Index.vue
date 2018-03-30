@@ -133,6 +133,8 @@
 	import axios from 'axios'
 
 	export default {
+		name: 'index',
+		id: 'index',
 		components: {
 			TopPart
 		},

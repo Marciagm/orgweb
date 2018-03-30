@@ -191,12 +191,9 @@
 </style>
 <script>
 	import TopPart from '@/components/Top'
-	import BottomPart from '@/components/Bottom'
-
 	export default {
 		components: {
-			TopPart,
-			BottomPart
+			TopPart
 		}
 	}
 </script>

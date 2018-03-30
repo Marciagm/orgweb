@@ -8,7 +8,7 @@ import Index from '@/pages/Index'
 }])*/
 const routes = [
 	{
-		name: '首页',
+		name: 'index',
 		path: '/',
 		component: () => import('@/pages/Index')
 	},
