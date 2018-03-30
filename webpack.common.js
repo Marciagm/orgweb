@@ -23,7 +23,7 @@ module.exports = {
 		        removeAttributeQuotes: true
 		    }
 		}),
-		new ExtractTextPlugin("style.css")
+		//new ExtractTextPlugin("style.css")
 	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -45,7 +45,7 @@ module.exports = {
         		test: /\.vue$/,
         		loader: 'vue-loader',
         		options: {
-        			extractCSS: true,
+        			//extractCSS: true,
         			postcss: [require('autoprefixer')(),require('cssnano')()],
         			loaders: {
         				//js: 'babel-loader!eslint-loader'
@@ -71,9 +71,9 @@ module.exports = {
       		}
 		]
 	},
-	optimization: {
+	/*optimization: {
 		splitChunks: {
-		    chunks: "async",
+		    chunks: "all",
 		    minSize: 30000,
 		    minChunks: 1,
 		    maxAsyncRequests: 5,
@@ -91,7 +91,7 @@ module.exports = {
 		        }
 		    }
 		}
-	}
+	}*/
 }
 
 

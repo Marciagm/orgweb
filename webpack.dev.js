@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = merge(common, {
 	// for development environment
-    devtool: '#cheap-module-eval-source-map',
+    //devtool: '#cheap-module-eval-source-map',
 	devServer: {
 		contentBase: path.resolve(__dirname, '/dist'),
 		compress: true,
