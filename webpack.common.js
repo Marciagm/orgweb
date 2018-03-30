@@ -71,7 +71,7 @@ module.exports = {
       		}
 		]
 	},
-	/*optimization: {
+	optimization: {
 		splitChunks: {
 		    chunks: "all",
 		    minSize: 30000,
@@ -91,7 +91,7 @@ module.exports = {
 		        }
 		    }
 		}
-	}*/
+	}
 }
 
 
