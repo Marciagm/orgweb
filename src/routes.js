@@ -33,9 +33,14 @@ const routes = [
 		component: () => import('@/pages/AboutUs')
 	}, 
 	{
+		name: '加入我们',
+		path: '/join-us',
+		component: () => import('@/pages/JoinUs')
+	},
+	{
 		name: '首页',
 		path: '*',
 		component: () => import('@/pages/Index')
-	},
+	}
 ]
 export { routes }
