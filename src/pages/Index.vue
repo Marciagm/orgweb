@@ -309,6 +309,10 @@
 		flex: 1;
 		margin-right: 0;
 	}
+	.second-label {
+		@extend .label;
+		color: #333333;
+	}
 	.second-con-head {
 		height: 69px;
 		margin-top: 45px;
