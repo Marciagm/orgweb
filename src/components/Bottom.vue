@@ -143,6 +143,7 @@
 	}
 	.foot-info-addr {
 		display: inline-block;
+		vertical-align: top;	
 		width: 485px;
 	}
 	.seprator {

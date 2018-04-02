@@ -13,8 +13,8 @@
 				<div class="about-us-sep"></div>
 			</div>
 			<div>
-				<div class="about-us-head">团队优势</div>
-				<div class="label-eng">TEAM ADVANTAGE</div>
+				<div class="about-us-head">团队简介</div>
+				<div class="label-eng">TEAM INTRODUCTION</div>
 				<div class="about-us-team">
 					<img src="../images/about-us.png">
 					<div class="about-us-leader">
@@ -26,10 +26,13 @@
 							<li>曾在机器学习顶级会议杂志ICML,NIPS等发表多篇文章</li>
 						</ul>
 					</div>
-					<div class="about-us-team-sep"></div>
 					<div class="about-us-staff">
-						<div class="about-us-leader-head">-核心成员</div>
-						<div class="about-us-staff-desc">团队核心成员均来自BAT等各大互联网公司，拥有多年算法实战经验</div>
+						<div class="about-us-team-sep"></div>
+						<div style="display: inline-block">
+							<div class="about-us-leader-head">-核心成员</div>
+							<div class="about-us-staff-desc">			团队核心成员均来自BAT等各大互联网公司，拥有多年算法实战经验
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="about-us-sep"></div>
@@ -38,12 +41,14 @@
 				<div class="about-us-head">联系我们</div>
 				<div class="label-eng">CONTACT US</div>
 				<div class="about-us-contact">
-					<div style="float: left; text-align: center; vertical-align: middle;">
+					<div>
 						<div class="about-us-contact-head">邮箱</div>
 						<div class="about-us-label">wisutech@ebrain.ai</div>
 					</div>
-					<div class="about-us-contact-sep"></div>
-					<div style="float: right; text-align: center;">
+					<div>
+						<div class="about-us-contact-sep"></div>
+					</div>
+					<div>
 						<div  class="about-us-contact-head">地址</div>
 						<div  class="about-us-label">北京市海淀区鼎好大厦3层智铀科技</div>
 
@@ -145,7 +150,7 @@
 	}
 	.about-us-team-sep {
 		margin-top: 13px;
-		margin-left: 70px;
+		margin-right: 77px;
 		display: inline-block;
 		vertical-align: top;
 		width: 2px;
@@ -165,9 +170,13 @@
 		color: #666666;
 	}
 	.about-us-contact {
+		display: flex;
 		width: 700px;
 		margin-top: 96px;
 		margin-bottom: 148px;
+	}
+	.about-us-contact>div {
+		flex: 1;
 	}
 	.about-us-contact-sep {
 		display: inline-block;

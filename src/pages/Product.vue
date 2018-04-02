@@ -173,7 +173,7 @@
 	}
 	.pro-flow-box {
 		@extend .box-style;
-		width: 277px;
+		width: 270px;
 		height: 196px;
 		background-color: #ffffff;
 		border: solid 1px #cccccc;

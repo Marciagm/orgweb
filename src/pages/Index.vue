@@ -54,7 +54,7 @@
 					<div class="second-con-head">10X</div>
 					<div class="second-con-sep"></div>
 					<div class="second-con-sub">提高生产率</div>
-					<div class="second-con-desc">为企业减少10倍多的生产率</div>
+					<div class="second-con-desc">为企业提高10倍多的生产率</div>
 				</div>
 			</div>
 		</div>
@@ -221,16 +221,18 @@
 	.first {
 		@extend .part;
 		width: 100%;
-		height: 620px;
+		height: 619px;
 		background: #fff;
+		padding-top: 106px;
+		box-sizing: border-box; 
 	}
 	.first-con {
 		width: 1200px;
-		padding-top: 106px; 
+		height: 388px;
 	}
 	.first-img {
-		width: 610px;
-		height: 338px;
+		width: 648px;
+		height: 388px;
 	}
 	.first-label {
 		@extend .label;
@@ -261,8 +263,6 @@
 		width: 115px;
 		height: 33px;
 		background-color: #2081e4;
-		box-shadow: 0px 3px 5px 0px 
-		rgba(59, 21, 1, 0.3);
 		color: #fffefe;
 		font-size: 14px;
 		line-height: 33px;
@@ -291,8 +291,7 @@
 		height: 291px;
 		margin-right: 28px;
 		background-color: #ffffff;
-		border-left: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
+		border: 1px solid #ccc;
 	}
 	.second-con >div:hover {
 		background-color: #1f6af1; 
@@ -340,12 +339,13 @@
 		color: #666666;
 	}
 	.third {
+		padding-top: 120px;
+		box-sizing: border-box;
 		height: 633px;
 		background: #fff;
 		text-align: center;
 	}
 	.third-con {
-		margin-top: 120px;
 		width: 1200px;
 		height: 415px;
 		text-align: left;
@@ -374,8 +374,6 @@
 		width: 115px;
 		height: 33px;
 		background-color: #2081e4;
-		box-shadow: 0px 3px 5px 0px 
-			rgba(59, 21, 1, 0.3);
 		font-size: 14px;
 		line-height: 24px;
 		letter-spacing: 0px;
@@ -415,6 +413,7 @@
 	.fourth-label {
 		@entend .label;
 		color: #fff;
+		font-size: 30px;
 	}
 	.fourth-label-eng {
 		@exted .label-eng;
