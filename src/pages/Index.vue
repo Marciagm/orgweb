@@ -32,29 +32,13 @@
 				<div class="first-label-eng">WE CAN DO IT</div>
 			</div>
 			<div class="second-con">
-				<div>
-					<div class="second-con-head">95%</div>
+				<div v-for="(item, index) in dataIndexs" @mouseover="hover(item, index)" @mouseout="out(item, index)">
+					<div class="second-con-head">
+						<img :src="item.hover ? item.himg : item.img">
+					</div>
 					<div class="second-con-sep"></div>
-					<div class="second-con-sub">生产时间</div>
-					<div class="second-con-desc">为企业减少95%的生产时间</div>
-				</div>
-				<div>
-					<div class="second-con-head">85%</div>
-					<div class="second-con-sep"></div>
-					<div class="second-con-sub">工程成本</div>
-					<div class="second-con-desc">为企业减少85%的工程成本</div>
-				</div>
-				<div>
-					<div class="second-con-head">70%</div>
-					<div class="second-con-sep"></div>
-					<div class="second-con-sub">运营成本</div>
-					<div class="second-con-desc">为企业减少70%的运营成本</div>
-				</div>
-				<div>
-					<div class="second-con-head">10X</div>
-					<div class="second-con-sep"></div>
-					<div class="second-con-sub">提高生产率</div>
-					<div class="second-con-desc">为企业提高10倍多的生产率</div>
+					<div class="second-con-sub">{{ item.title }}</div>
+					<div class="second-con-desc">{{ item.desc }}</div>
 				</div>
 			</div>
 		</div>
@@ -89,42 +73,6 @@
 				<img class="third-con-img" src="../images/solution-mac.png">
 			</div>
 		</div>
-		
-
-		<!-- <div class="fifth">
-			<div class="label">新闻动态</div>
-			<div class="label-">news</div>
-			<div class="fifth-con">
-				<div class="fifth-con-left">
-					<img src="../images/news.png">
-					<div class="fifth-con-left-head">当我们在谈论人工智能的时候 我们在谈论什么？</div>
-					<span class="news-time">2018-03-18</span><span class="news-time">信息来源：网易智能</span>
-				</div>
-				<ul class="fifth-news-list">
-					<li>
-						<div class="fifth-label">中国AI初创企业去年融资额居全球第一创历史新高</div>
-						<div class="fifth-news-detail">
-							参考消息网2月26日报道日媒称，美国调查公司CB Insights的数据显示，创业不久的中国人工智能（AI）相关企业2017年融资额超过美国，首次跃居全球首位。
-						</div>
-						<span class="news-time">2018-03-18</span><span class="news-time">信息来源：网易智能</span>
-					</li>
-					<li>
-						<div class="fifth-label">中国AI初创企业去年融资额居全球第一创历史新高</div>
-						<div class="fifth-news-detail">
-							参考消息网2月26日报道日媒称，美国调查公司CB Insights的数据显示，创业不久的中国人工智能（AI）相关企业2017年融资额超过美国，首次跃居全球首位。
-						</div>
-						<span class="news-time">2018-03-18</span><span class="news-time">信息来源：网易智能</span>
-					</li>
-					<li>
-						<div class="fifth-label">中国AI初创企业去年融资额居全球第一创历史新高</div>
-						<div class="fifth-news-detail">
-							参考消息网2月26日报道日媒称，美国调查公司CB Insights的数据显示，创业不久的中国人工智能（AI）相关企业2017年融资额超过美国，首次跃居全球首位。
-						</div>
-						<span class="news-time">2018-03-18</span><span class="news-time">信息来源：网易智能</span>
-					</li>
-				</ul>
-			</div>
-		</div> -->
 	</div>
 </template>
 
@@ -140,7 +88,36 @@
 		},
 		data () {
 			return {
-				news: 'hhh'
+				dataIndexs: [
+					{
+						img: require('../images/1-blue.png'),
+						himg: require('../images/1-white.png'),
+						title: '生产时间',
+						hover: false,
+						desc: '为企业减少95%的生产时间'
+					},
+					{
+						img: require('../images/2-blue.png'),
+						himg: require('../images/2-white.png'),
+						title: '工程成本',
+						hover: false,
+						desc: '为企业减少85%的工程成本'
+					},
+					{
+						img: require('../images/3-blue.png'),
+						himg: require('../images/3-white.png'),
+						title: '运营成本',
+						hover: false,
+						desc: '为企业减少70%的运营成本'
+					},
+					{
+						img: require('../images/4-blue.png'),
+						himg: require('../images/4-white.png'),
+						title: '提高生产率',
+						hover: false,
+						desc: '为企业提高10倍多的生产率'
+					}
+				]
 			}
 		},
 		mounted () {
@@ -155,6 +132,12 @@
 			},
 			goSolution () {
 				this.$router.push('/solution');
+			},
+			hover (item, index) {
+				item.hover = true;
+			},
+			out (item, index) {
+				item.hover = false;
 			}
 		}
 	}
@@ -439,73 +422,6 @@
 		letter-spacing: 0px;
 		line-height: 24px;
 		color: #eeeeee;
-	}
-	.fifth {
-		box-sizing: border-box;
-		padding-top: 120px;
-		height: 854px;
-		background: #fff;
-		text-align: center;
-	}
-	.fifth-con {
-		margin-top: 62px;
-		position: relative;
-	}
-	.fifth-con-left {
-		width: 673px;
-		text-align: left;
-		display: inline-block;
-	}
-	.fifth-con-left img {
-		width: 546px;
-		height: 377px;
-	}
-	.fifth-con-left-head {
-		margin-top: 36px;
-		margin-bottom: 17px;
-		height: 25px;
-		font-size: 24px;
-		line-height: 24px;
-		letter-spacing: 1px;
-		color: #333333;
-	}
-	.fifth-news-list {
-		display: inline-block;
-		width: 527px;
-		text-align: left;
-	}
-	.fifth-news-list li {
-		margin-bottom: 60px;
-	}
-	.fifth-news-list li:last-chile {
-		margin-bottom: 0;
-	}
-	.news-label {
-		height: 13px;
-		font-size: 14px;
-		line-height: 12px;
-		letter-spacing: 0px;
-		color: #999999;
-	}
-	.news-time {
-		@extend .news-label;
-		display: inline-block;
-		margin-right: 22px;
-	}
-	.fifth-label {
-		@extend .label;
-		letter-spacing: 1px;
-		font-size: 24px;
-		height: 25px;
-		width: 553px;
-	}
-	.fifth-news-detail {
-		margin-top: 14px;
-		margin-bottom: 12px;
-		width: 549px;
-		font-size: 14px;
-		line-height: 26px;
-		color: #666666;
 	}
 </style>
 

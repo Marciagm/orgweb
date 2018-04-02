@@ -4,8 +4,8 @@
             <img src="../images/logo-white.png" class="icon">
             <ul class="nav">
                 <li v-for="(item, index) in navigator">
-                    <router-link  :to="item.path" v-if="index == curIndex" class="hilight">{{ item.name }}</router-link>
-                    <router-link  :to="item.path" v-if="index != curIndex">{{ item.name }}</router-link>
+                    <a :href="'#' + item.path" v-if="index == curIndex" class="hilight">{{ item.name }}</a>
+                    <a :href="'#' + item.path" v-if="index != curIndex">{{ item.name }}</a>
                 </li>
             </ul>
         </div>
