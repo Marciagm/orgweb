@@ -192,14 +192,14 @@
 		float: left;
 	}
 	.pro-merit-lists-center {
-		margin-left: 88px;
-		margin-right: 88px;
+		margin-left: 80px;
+		margin-right: 80px;
 	}
 	.pro-merit-lists-right {
 		float: right;
 	}
 	.pro-merit-lists>div {
-		width: 202px;
+		width: 292px;
 		display: inline-block;
 	}
 	.pro-merits-head {

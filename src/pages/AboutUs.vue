@@ -35,7 +35,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="about-us-sep"></div>
+				<div class="about-us-sep clear"></div>
 			</div>
 			<div>
 				<div class="about-us-head">联系我们</div>
@@ -159,7 +159,7 @@
 	}
 	.about-us-staff {
 		@extend .about-us-leader;
-		margin-left: 61px;
+		float: right;
 	}
 	.about-us-staff-desc {
 		width: 234px;
