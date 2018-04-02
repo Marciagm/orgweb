@@ -28,7 +28,7 @@
 		</div>
 		<div class="second">
 			<div class="second-head">
-				<span class="first-label">我们能做到</span>
+				<span class="second-label">我们能做到</span>
 				<div class="first-label-eng">WE CAN DO IT</div>
 			</div>
 			<div class="second-con">
