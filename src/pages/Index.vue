@@ -300,11 +300,6 @@
 		height: 69px;
 		margin-top: 45px;
 		margin-bottom: 33px;
-		font-family: DINCondensed-Bold;
-		font-size: 92px;
-		letter-spacing: 0px;
-		color: #1f6af1;
-
 	}
 	.second-con-sep {
 		width: 20px;
