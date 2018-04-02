@@ -13,7 +13,7 @@ module.exports = {
 		main: './src/main.js'
 	},
 	plugins: [
-		//new CleanWebpackPlugin(['dist']),
+		new CleanWebpackPlugin(['dist']),
 		new HtmlWebpackPlugin({
 			title: '智铀科技',
 			template: 'index.html',

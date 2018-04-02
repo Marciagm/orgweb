@@ -30,7 +30,6 @@
 </script>
 
 <style lang="scss">
-    $fontSize: 14px;
     .banner {
         background: url("../images/banner.png") no-repeat;
         background-position: top center;
@@ -54,7 +53,7 @@
         margin-right: 6px;
         height: 38px;
         display: inline-block;
-        font-size: $fontSize;
+        font-size: 14px;
     }
     .banner a {
         display: inline-block;
