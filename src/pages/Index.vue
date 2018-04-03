@@ -19,7 +19,7 @@
 				<div class="first-desc">
 					<div>
 						<span class="first-label">产品特点</span>
-						<span class="first-label-eng">PRODUCT FEATURE</span>
+						<span class="first-label-eng">PRODUCT CHARACTERISTIC</span>
 					</div>
 					<div class="first-desc-detail">Ebrain自动化机器学习平台，使用“第四代机器学习”技术，基于大规模分布式计算能力，用户只需一键操作即可自动化完成特征工程和模型选择及参数优化，大幅提升数据处理速度加快数据科学应用进程。</div>
 					<button @click="goProduct">了解详情</button>
@@ -30,14 +30,12 @@
 			<div class="third-con">
 				<div class="third-con-left">
 					<div class="third-con-head">
-						<span class="first-label-eng">THE USER CAN</span>
-						<span class="first-label" style="margin-left: 20px;">用户可以</span>
+						<span class="first-label-eng">JUST ONE CLICK</span>
+						<span class="first-label" style="margin-left: 20px; margin-right: 0;">一键完成模型训练</span>
 					</div>
 					<div class="third-con-desc">
-						<div class="third-con-desc-sub">一键完成模型训练</div>
 						提高产能，将耗时且重复的工作交给机器来完成，更加关注业务，可以在有限的时间内找到更好的方案，没有机器学习经验的用户也可以建立高精度预测模型，在企业内部各个环节发现和实践AI驱动，提高智能化水平。
 					</div>
-					<button @click="goSolution">查看更多</button>
 				</div>
 				<img class="third-con-img" src="../images/user-can-mac.png">
 			</div>
@@ -45,7 +43,7 @@
 		<div class="second">
 			<div class="second-head">
 				<span class="second-label">我们能做到</span>
-				<div class="first-label-eng">WE CAN DO IT</div>
+				<div class="first-label-eng">WHAT WE CAN DO</div>
 			</div>
 			<div class="second-con">
 				<div v-for="(item, index) in dataIndexs" @mouseover="hover(item, index)" @mouseout="out(item, index)">
@@ -146,7 +144,7 @@
 				this.$router.push('/product');
 			},
 			goSolution () {
-				this.$router.push('/solution');
+				this.$router.push('/field');
 			},
 			hover (item, index) {
 				item.hover = true;

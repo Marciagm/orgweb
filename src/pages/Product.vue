@@ -4,7 +4,7 @@
 		<div class="pro-flow">
 			<div class="pro-flow-con">
 				<div class="label">产品工作流程</div>
-				<div class="label-eng">PRODUCT WORK PROCESS</div>
+				<div class="label-eng">PROCESS OF PRODUCT WORKING</div>
 				<div class="pro-flow-detail">
 					<div>
 						<div class="pro-flow-box">
@@ -97,7 +97,7 @@
 		<div class="pro-industry">
 			<div class="pro-industry-con">
 				<div class="label">合作行业</div>
-				<div class="label-eng">COOPERATION IN INDUSTRY</div>
+				<div class="label-eng">COOPERATION INDUSTRY</div>
 				<div class="pro-industry-lists">
 					<div class="pro-industry-lists-item">
 						<img src="../images/cooperation-bank.png" class="pro-industry-img">
