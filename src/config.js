@@ -11,8 +11,8 @@ const routers = [
 		index: 1
 	}, 
 	{
-		name: '解决方案',
-		path: '/solution',
+		name: '应用领域',
+		path: '/field',
 		index: 2
 	},
 	/*{

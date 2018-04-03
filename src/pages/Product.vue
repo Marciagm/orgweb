@@ -3,14 +3,14 @@
 		<top-part curIndex=1></top-part>
 		<div class="pro-flow">
 			<div class="pro-flow-con">
-				<div class="pro-label">人工智能预测流程</div>
-				<div class="pro-label-eng">AI FORECASTING PROCESS</div>
+				<div class="label">产品工作流程</div>
+				<div class="label-eng">PRODUCT WORK PROCESS</div>
 				<div class="pro-flow-detail">
 					<div>
 						<div class="pro-flow-box">
 							<img src="../images/process-data.png">
 						</div>
-						<div class="pro-item-label">数据</div>
+						<div class="pro-item-label">上传数据</div>
 					</div>
 					<div class="pro-flow-arrow">
 						<img src="../images/flow-arrow.png">
@@ -19,7 +19,7 @@
 						<div class="pro-flow-box">
 							<img src="../images/process-process.png">
 						</div>
-						<div class="pro-item-label">流程</div>
+						<div class="pro-item-label">选择业务目标</div>
 					</div>
 					<div class="pro-flow-arrow">
 						<img src="../images/flow-arrow.png">
@@ -28,7 +28,7 @@
 						<div class="pro-flow-box">
 							<img src="../images/process-run.png">
 						</div>
-						<div class="pro-item-label">运行中</div>
+						<div class="pro-item-label">一键构建模型</div>
 					</div>
 					<div class="pro-flow-arrow">
 						<img src="../images/flow-arrow.png">
@@ -37,15 +37,15 @@
 						<div class="pro-flow-box">
 							<img src="../images/process-model.png">
 						</div>
-						<div class="pro-item-label">模型和预测</div>
+						<div class="pro-item-label">开启预测</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="pro-merit">
 			<div class="pro-merit-con">
-				<div class="pro-label">产品优点</div>
-				<div class="pro-label-eng">APRODUCT ADVANTAGES</div>
+				<div class="label">产品优点</div>
+				<div class="label-eng">APRODUCT ADVANTAGES</div>
 				<div class="pro-merit-lists">
 					<div class="pro-merit-lists-left">
 						<div>
@@ -96,8 +96,8 @@
 		</div>
 		<div class="pro-industry">
 			<div class="pro-industry-con">
-				<div class="pro-label">合作行业</div>
-				<div class="pro-label-eng">COOPERATION IN INDUSTRY</div>
+				<div class="label">合作行业</div>
+				<div class="label-eng">COOPERATION IN INDUSTRY</div>
 				<div class="pro-industry-lists">
 					<div class="pro-industry-lists-item">
 						<img src="../images/cooperation-bank.png" class="pro-industry-img">
@@ -137,12 +137,6 @@
 	.pro {
 		text-align: center;
 	}
-	.pro-label {
-		@extend .label;
-	}
-	.pro-label-eng {
-		@extend .label-eng;
-	}
 	.pro-item-label {
 		@extend .label;
 		font-size: 20px;
@@ -152,14 +146,14 @@
 		height: 662px;    
 	}
 	.pro-flow-arrow {
-		@extend .box-style;
+		box-sizing: border-box;
 		padding-top: 92px;
 		width: 20px;
 		height: 196px;
 		display: inline-block;
 	}
 	.pro-flow-con {
-		@extend .box-style;
+		box-sizing: border-box;
 		width: 1200px;
 		padding-top: 119px;
 		height: 662px;
@@ -172,7 +166,7 @@
 		vertical-align: top;
 	}
 	.pro-flow-box {
-		@extend .box-style;
+		box-sizing: border-box;
 		width: 270px;
 		height: 196px;
 		background-color: #ffffff;
@@ -215,11 +209,11 @@
 	}
 	.pro-merit-con {
 		width: 1200px;
-		@extend .box-style;
+		box-sizing: border-box;
 		padding-top: 119px;
 	}
 	.pro-industry {
-		@extend .box-style;
+		box-sizing: border-box;
 		padding-top: 119px;
 		height: 634px;
 		background-color: #f8f9fc;

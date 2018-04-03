@@ -18,9 +18,9 @@ const routes = [
 		component: () => import('@/pages/Product')
 	},
 	{
-		name: '解决方案',
-		path: '/solution',
-		component: () => import('@/pages/Solution')
+		name: '应用领域',
+		path: '/field',
+		component: () => import('@/pages/Field')
 	},
 	/*{
 		name: '新闻动态',

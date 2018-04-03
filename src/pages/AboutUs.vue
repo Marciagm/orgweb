@@ -5,10 +5,10 @@
 			<div>
 				<div class="about-us-head">公司介绍</div>
 				<div class="label-eng">COMPANY INTRODUCTION</div>
-				<div class="about-us-desc">智铀科技是致力于打造世界上最先进机器学习平台的人工智能服务公司，拥有世界上最先进的企业级自动化机器学习平台。智铀科技专注于为企业带来全流程，自动化的建模和部署能力，为用户提供从数据预处理，模型训练，模型评估，模型预测到结果分析等一站式服务，从而降低机器学习的门槛，为企业构建人工智能核心。智铀科技还掌握最新的“第四代机器学习”技术能力，可以构建自动化机器学习平台，实现在线智能学习。</div>
+				<div class="about-us-desc">智铀科技致力于研发世界上最先进的企业级自动化机器学习技术，大幅降低机器学习的门槛，为企业带来全流程，自动化的建模和部署能力，为用户提供从数据预处理，模型训练，模型评估，模型预测到结果分析等一站式服务，帮助企业构建人工智能核心，实现AI驱动。</div>
 				<div class="about-us-foot">
 					<span class="about-us-foot-head">企业愿景：</span>
-					<span class="about-us-foot-desc">见证AI裂变    让AI成为企业发展新动力    AI驱动 预见未来 才能遇见未来（让AI驱动未来）</span>
+					<span class="about-us-foot-desc">以自动化机器学习实现AI裂变，促进行业发展！</span>
 				</div>
 				<div class="about-us-sep"></div>
 			</div>
@@ -85,8 +85,8 @@
 		font-size: 30px;
 	}
 	.about-us-desc {
-		text-indent: 28px;
-		text-align: left;
+/* 		text-indent: 28px;
+ */		text-align: left;
 		width: 920px;
 		font-size: 14px;
 		line-height: 24px;
