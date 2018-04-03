@@ -29,7 +29,7 @@
 		<div class="third">
 			<div class="third-con">
 				<div class="third-con-left">
-					<div class="third-con-head">
+					<div class="third-con-head" style="margin-top: 58px;">
 						<span class="first-label-eng">JUST ONE CLICK</span>
 						<span class="first-label" style="margin-left: 20px; margin-right: 0;">一键完成模型训练</span>
 					</div>
@@ -227,8 +227,8 @@
 		height: 388px;
 	}
 	.first-img {
-		width: 648px;
-		height: 388px;
+		width: 616px;
+		height: 341px;
 	}
 	.first-label {
 		@extend .label;
