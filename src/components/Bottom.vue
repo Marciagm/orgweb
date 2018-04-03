@@ -35,13 +35,6 @@
 </template>
 
 <script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?0cf1fc6d2e6cf52e4074d129b3da6e07";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
 	export default {
 		name: 'bottom',
 		data() {
