@@ -77,7 +77,7 @@
 				<div class="third-con-left">
 					<div class="third-con-head">
 						<span class="first-label-eng">APPLICATION FIELD</span>
-						<span class="first-label" style="margin-left: 20px;">应用领域</span>
+						<span class="first-label" style="margin-left: 20px; margin-right: 0;">应用领域</span>
 					</div>
 					<div class="third-con-desc">智能时代下，各行业发展速度加快，洞察行业趋势，预测企业市场、客户、管理、服务等领域的变化，提前采取行动，有针对性的优化资源配置，可以帮助企业在行业竞争中保持领先优势。智铀科技应用最新的机器学习技术，帮助企业发现AI机会，最大化转化数据价值，助力企业预见未来。
 					</div>
@@ -353,7 +353,7 @@
 	}
 	.third-con-head {
 		margin-top: 38px;
-		margin-bottom: 54px;
+		margin-bottom: 40px;
 	}
 	.third-con-desc {
 		/* text-indent: 28px; */
@@ -385,7 +385,7 @@
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: #fffefe;
-		margin-top: 14px;
+		margin-top: 25px;
 	}
 	.third-con-img {
 		float: right;

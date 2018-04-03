@@ -129,7 +129,7 @@
 	.about-us-leader {
 		display: inline-block;
 		vertical-align: top;
-		margin-left: 56px;
+		margin-left: 40px;
 		margin-top: 11px;
 	}
 	.about-us-leader-head {
