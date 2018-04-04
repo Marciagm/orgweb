@@ -206,6 +206,7 @@
 		width: 292px;
 		@extend .label-eng;
 		font-size: 14px;
+		color: #666;
 	}
 	.pro-merit-con {
 		width: 1200px;

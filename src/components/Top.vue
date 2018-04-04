@@ -33,6 +33,7 @@
     .banner {
         background: url("../images/banner.png") no-repeat;
         background-position: top center;
+        background-color: #0159a9;
         height: 500px;
     }
     .nav-con {

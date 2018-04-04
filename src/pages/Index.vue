@@ -26,7 +26,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="third">
+		<div class="third" style="padding-top: 20px; height: 500px;">
 			<div class="third-con">
 				<div class="third-con-left">
 					<div class="third-con-head" style="margin-top: 58px;">
@@ -64,7 +64,7 @@
 					<span class="fourth-label-eng" style="margin-left: 15px;">FOUNDER OF THE TEAM</span>
 					<div class="fourth-con-sub">——创始人夏粉</div>
 					<ul class="fourth-con-desc">
-						<li>中科院机器学习博士，曾任Baidu高级科学家</li>
+						<li>中科院机器学习博士，曾任百度高级科学家</li>
 						<li>原百度超大规模机器学习团队负责人，CTR团队负责人</li>
 						<li>拥有十五年以上机器学习研究和应用经验</li>
 						<li>曾在机器学习顶级会议杂志ICML,NIPS等发表多篇文章</li>
