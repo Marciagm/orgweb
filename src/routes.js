@@ -1,4 +1,3 @@
-import { routers } from '@/config'
 import Index from '@/pages/Index'
 
 /*const routes = routers.concat([{
@@ -10,6 +9,7 @@ const routes = [
 	{
 		name: 'index',
 		path: '/',
+		//component: Index
 		component: () => import('@/pages/Index')
 	},
 	{
