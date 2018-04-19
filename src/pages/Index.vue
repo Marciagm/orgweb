@@ -91,7 +91,6 @@
 
 <script>
 	import TopPart from '@/components/Top'
-	import axios from 'axios'
 
 	export default {
 		name: 'index',
@@ -134,10 +133,6 @@
 			}
 		},
 		mounted () {
-			/*axios.get('/news').then((data) => {
-				console.log(`data: ${data}`);
-				this.news = data.data.content;
-			})*/
 		},
 		methods: {
 			goProduct () {
